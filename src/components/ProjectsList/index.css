@@ -1,0 +1,54 @@
+.app-container {
+  background-color: #e6e9ec;
+  height: 100vh;
+  padding: 20px;
+}
+.select-input {
+  height: 35px;
+  width: 30%;
+  color: #475569;
+  border: 1px solid #475569;
+  font-family: 'Roboto';
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 9px;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  height: 300px;
+  width: 300px;
+}
+.failure-heading {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.message {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.retry-button {
+  color: #ffffff;
+  background-color: #328af2;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
